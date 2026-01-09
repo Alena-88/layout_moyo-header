@@ -1,3 +1,7 @@
+:root {
+  --main-color: #00acdc;
+}
+
 body {
   margin: 0;
   font-family: Roboto, sans-serif;
@@ -5,13 +9,12 @@ body {
   font-weight: 500;
 }
 
-.conteiner {
+.container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  margin: 0 50px;
-  padding: 0;
+  padding: 0 50px;
 }
 
 .moyo-header {
@@ -38,7 +41,7 @@ body {
   padding: 0;
 }
 
-.nav__list li + li {
+.nav__item + .nav__item {
   margin-left: 20px;
 }
 
@@ -57,7 +60,7 @@ body {
 
 .nav__link.is-active,
 .nav__link:hover {
-  color: #00acdc;
+  background-color: var(--main-color);
 }
 
 .nav__link.is-active::after {
@@ -67,5 +70,5 @@ body {
   left: 0;
   right: 0;
   height: 4px;
-  background-color: #00acdc;
+  background-color: var(--main-color);
 }
