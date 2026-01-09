@@ -60,7 +60,7 @@ body {
 
 .nav__link.is-active,
 .nav__link:hover {
-  background-color: var(--main-color);
+  color: var(--main-color);
 }
 
 .nav__link.is-active::after {
