@@ -13,12 +13,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
   padding: 0 50px;
 }
 
 .moyo-header {
-  display: flex;
   align-items: center;
   background-color: #fff;
 }
